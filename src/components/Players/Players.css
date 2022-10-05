@@ -1,0 +1,16 @@
+.players-container {
+    padding: 10px;
+}
+
+.player-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 12px;
+}
+
+
+@media screen and (max-width:1200px) {
+    .player-card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

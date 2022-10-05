@@ -1,0 +1,39 @@
+.home-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+
+/* .left-side {} */
+
+.search-input {
+    font-size: 16px;
+    padding: 10px;
+    width: 50%;
+}
+
+.search-btn {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+}
+
+.cart {
+    border: 2px solid gray;
+    box-shadow: 4px 4px 8px gray;
+    margin-right: 10px;
+    padding: 10px;
+    position: sticky;
+    top: 10px;
+}
+
+.selected-cart-container {
+    margin-top: 5px;
+}
+
+.selected-cart {
+    display: flex;
+    justify-content: space-between;
+}
